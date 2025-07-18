@@ -1,8 +1,5 @@
 body {
    
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
 
     font-family: sans-serif;
 }
@@ -89,13 +86,16 @@ body {
 }
 /* experience section */
 .experience-container{
+    max-width: 90rem;
     display: flex;
-    margin: 1.25rem; 
-    gap:5rem;
+    margin:0 auto; 
+    gap: 1.25rem; 
     padding: 1.25rem; 
     align-items: center;
     
 }
+
+
 .experience-text h3{
     border-left:#FF900E solid 0.30rem; 
     font-size: 2rem; 
@@ -108,6 +108,30 @@ body {
     border-radius: 8px;
 
 
+}
+/* facts section style */
+.facts-text{
+    padding: 1.25rem; 
+
+
+}
+.facts-container{
+    display: flex; 
+    justify-content: center;
+    margin: 1.25rem; 
+    gap: 6rem; 
+    text-align: center;
+}
+.facts{
+    max-width: 90rem;
+    margin: 0 auto; 
+}
+.facts-card{
+    border: #FF900E 3px solid; 
+    width: 120px ;
+    height: 120px;
+    box-sizing: 1.25rem;
+    padding: 1.25rem; 
 }
 /* media query */
 @media screen and (max-width:424px )
